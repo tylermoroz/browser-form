@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser Form</title>
+  </head>
+  <body>
+    <div id="form-div">
+      <form id="form">
+        <div id="email-div" class="form-element">
+          <label for="email" class="label-element">Email:(required)</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div id="country-div" class="form-element">
+          <label for="country" class="label-element">Country:(required)</label>
+          <input type="text" id="country" name="country" required />
+        </div>
+        <div id="zip-div" class="form-element">
+          <label for="zip-code" class="label-element"
+            >Zip Code:(required)</label
+          >
+          <input type="number" id="zip-code" name="zip-code" required />
+        </div>
+        <div id="password-div" class="form-element">
+          <label for="password" class="label-element"
+            >Password:(required)</label
+          >
+          <input type="text" id="password" name="password" required />
+        </div>
+        <div id="confirm-div" class="form-element">
+          <label for="confirm-password" class="label-element"
+            >Confrim Password:(required)</label
+          >
+          <input
+            type="text"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
