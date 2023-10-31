@@ -26,3 +26,18 @@ body {
 .label-element {
   font-weight: bold;
 }
+
+input:valid {
+  border: 2px solid rgb(0, 255, 0);
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border: 2px solid red;
+  border-radius: 5px;
+}

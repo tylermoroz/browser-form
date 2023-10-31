@@ -15,7 +15,13 @@
         </div>
         <div id="country-div" class="form-element">
           <label for="country" class="label-element">Country:(required)</label>
-          <input type="text" id="country" name="country" required />
+          <input
+            type="text"
+            id="country"
+            name="country"
+            pattern="[a-zA-Z]*"
+            required
+          />
         </div>
         <div id="zip-div" class="form-element">
           <label for="zip-code" class="label-element"
