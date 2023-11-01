@@ -26,7 +26,15 @@ body {
 .label-element {
   font-weight: bold;
 }
+input {
+  border: 2px solid black;
+  border-radius: 5px;
+}
 
+input:focus:valid {
+  border: 2px solid rgb(0, 255, 0);
+  border-radius: 5px;
+}
 input:valid {
   border: 2px solid rgb(0, 255, 0);
   border-radius: 5px;
@@ -37,7 +45,7 @@ input:focus {
   border-radius: 5px;
 }
 
-input:invalid {
+input:focus:invalid {
   border: 2px solid red;
   border-radius: 5px;
 }
